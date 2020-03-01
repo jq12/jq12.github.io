@@ -13,23 +13,18 @@ sudo apt-get install uget
 
 sudo apt-get install aria2
 ````
-
-##BT client install (Deluged)
-sudo add-apt-repository ppa:deluge-team/ppa
-sudo apt-get update
-sudo apt-get install deluged deluge-console
-sudo apt-get install deluge-gtk
-
-
 ## Cili BT Xtunder client isntall (Ktorent)
+````
 sudo apt-get install ktorrent
-sudo apt-get install amule
-echo #QUFlZDJrOi8vfGZpbGV8JUU4JUExJThDJUU1JUIwJUI4JUU4JUI1JUIwJUU4JTgyJTg5LlRoZS5XYWxraW5nLkRlYWQuUzA2RTAxLiVFNCVCOCVBRCVFOCU4QiVCMSVFNSVBRCU5NyVFNSVCOSU5NS5IRFRWcmlwLjEwMjR4NTc2Lm1wNHw2NDg3NTg1MDl8ZjIyZmI2OTRjMDQ0ZmYyNjU0MjhhNTEzNWVhYzhiOTB8aD12eXFsNHFjNHpmYmx0eWNqdW1rcnNibDJza2JscTJsZnwvWlo= #| base64 -d
 
+sudo apt-get install amule
+
+#transfer Xtunder  code to ori url
+echo #QUFlZDJrOi8vfGZpbGV8JUU4JUExJThDJUU1JUIwJUI4JUU4JUI1JUIwJUU4JTgyJTg5LlRoZS5XYWxraW5nLkRlYWQuUzA2RTAxLiVFNCVCOCVBRCVFOCU4QiVCMSVFNSVBRCU5NyVFNSVCOSU5NS5IRFRWcmlwLjEwMjR4NTc2Lm1wNHw2NDg3NTg1MDl8ZjIyZmI2OTRjMDQ0ZmYyNjU0MjhhNTEzNWVhYzhiOTB8aD12eXFsNHFjNHpmYmx0eWNqdW1rcnNibDJza2JscTJsZnwvWlo= #| base64 -d
 
 ##add anaconda3 env
 export PATH=/home/develop/anaconda3/bin:$PATH
-
+````
 
 
 ## mount the second disk
