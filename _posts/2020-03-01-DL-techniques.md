@@ -1,6 +1,8 @@
 ---
 title: Deep Learning techniques
-tags: Keras
+tags:
+- Keras
+- DL
 ---
 <!--more-->
  ##keras中loss与val_loss的关系
