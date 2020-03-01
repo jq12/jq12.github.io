@@ -5,7 +5,7 @@ tags:
 - DL
 ---
 <!--more-->
- ##keras中loss与val_loss的关系
+## keras中loss与val_loss的关系
 
 loss是训练集的损失值，val_loss是测试集的损失值
 
