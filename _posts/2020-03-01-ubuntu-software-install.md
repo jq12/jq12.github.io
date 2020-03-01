@@ -1,3 +1,9 @@
+---
+title: Deep Learning techniques
+tags:
+- ubuntu
+- install
+---
 ##uget
 ````
 
@@ -28,19 +34,23 @@ export PATH=/home/develop/anaconda3/bin:$PATH
 
 
 ## mount the second disk
- mount /dev/vdb /u01
+<p> mount /dev/vdb /u01<p>
+
 这时候如果磁盘之前挂载过，是挂载不上的，报下面的错
 我们要初始化磁盘
-mkfs.ext4 /dev/vdb
+
+<p>mkfs.ext4 /dev/vdb<p>
 
 
 ##add anaconda env to  jupyter notebook
-list all conda env
+````
+#list all conda env
  conda env list
-activate env which you are desired to used in jupyter
+#activate env which you are desired to used in jupyter
 activeate  evn.name
-instal ipykernel
+#instal ipykernel
 conda env Injection
 python -m ipykernel install --user --name your_env --display-name "Python [conda env:your_env]"
 your_env 是你的conda环境名称
 Python [conda env:your_env]：将是你在notebook中看到的名称。
+````
