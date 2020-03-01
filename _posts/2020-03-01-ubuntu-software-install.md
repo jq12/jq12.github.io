@@ -1,16 +1,18 @@
 ##uget
+````
+
 sudo add-apt-repository ppa:plushuang-tw/uget-stable
 
 sudo add-apt-repository ppa:t-tujikawa/ppa
 
-uGet client install
+#uGet client install
 
 sudo apt-get install uget
 
-depend aria2
+#depend aria2
 
 sudo apt-get install aria2
-
+````
 
 ##BT client install (Deluged)
 sudo add-apt-repository ppa:deluge-team/ppa
