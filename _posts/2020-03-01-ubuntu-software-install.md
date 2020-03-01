@@ -1,9 +1,10 @@
 ---
-title: Deep Learning techniques
+title: Commonly used software install Manual
 tags:
 - ubuntu
 - install
 ---
+<!--more-->
 ##uget
 ````
 
@@ -34,15 +35,17 @@ export PATH=/home/develop/anaconda3/bin:$PATH
 
 
 ## mount the second disk
-<p> mount /dev/vdb /u01<p>
+
+` mount /dev/vdb /u01<p>`
 
 这时候如果磁盘之前挂载过，是挂载不上的，报下面的错
 我们要初始化磁盘
 
-<p>mkfs.ext4 /dev/vdb<p>
+`mkfs.ext4 /dev/vdb`
 
 
 ##add anaconda env to  jupyter notebook
+
 ````
 #list all conda env
  conda env list
